@@ -1,7 +1,9 @@
 <?php
-    $nome = $_GET['cxnome'];
-    $idade = $_GET['mensagem'];
+    $nome = $_POST['cxnome'];
+    $texto = $_POST['cxtext'];
 
-    echo "Nome preenchido: $nome <br>";
-    echo "Idade preenchida: $idade <br>";
+    echo "Digite seu nome: $nome <br>";
+    echo "Digite sua mensagem: $texto <br>";
+
+    echo "é isso aí ó:\n$nome\n$texto"
 ?>
