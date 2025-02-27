@@ -4,12 +4,11 @@
  $idade = 15;
  $salario = 450;
 
- echo "Olá! Qual o seu nome?";
- echo "<br>";
+ echo "Olá! Qual o seu nome?<br>";
  echo $nome;
  echo "<br>";
- echo "Oi " .$nome. "! Quantos anos você tem?";
- echo "<br>";
+ echo "Oi " .$nome. "! Quantos anos você tem?<br>";
+ 
  echo $idade;
  echo "<br>";
  echo "Então você tem " .$idade;
