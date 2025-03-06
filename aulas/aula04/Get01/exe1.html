@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 01</title>
+    <title>Exercicio 01 - GET</title>
 </head>
 <body>
     <h1>Usando o método GET, crie um formulário que receba o nome do estudante, 3 notas de
@@ -11,10 +11,10 @@
         validação dos campos de modo que usuário tenha que preencher todos os campos e
         todos numéricos.</h1>
     <form action="form1.php" method="GET">
-        <p>Digite seu nome, estudante: <input type="text" name="nome" id=""></p>
-        <p>Digite sua primeira nota: <input type="number" max="10" min="0" name="num1" id=""></p>
-        <p>Digite sua segunda nota: <input type="number" max="10" min="0" name="num2" id=""></p>
-        <p>Digite sua terceira nota: <input type="number" max="10" min="0" name="num3" id=""></p>
+        <p>Digite seu nome, estudante: <input type="text" name="nome" id="" required></p>
+        <p>Digite sua primeira nota: <input type="number" max="10" min="0" name="num1" id="" required></p>
+        <p>Digite sua segunda nota: <input type="number" max="10" min="0" name="num2" id="" required></p>
+        <p>Digite sua terceira nota: <input type="number" max="10" min="0" name="num3" id="" required></p>
         <input type="submit" value="ENVIAR">
     </form>
 </body>

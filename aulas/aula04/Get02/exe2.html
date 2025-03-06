@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercicio 01</title>
+    <title>Exercicio 02 - GET</title>
 </head>
 <body>
     <h1>Usando o método GET, crie um formulário que receba três números e verifique qual
         deles é o maior. Faça a validação dos campos de modo que usuário tenha que preencher
         todos os campos.</h1>
     <form action="form2.php" method="GET">
-        <p>Digite seu primeiro número: <input type="number" min="1" name="num1" id=""></p>
-        <p>Digite sua segundo número: <input type="number" min="1" name="num2" id=""></p>
-        <p>Digite sua terceiro número: <input type="number" min="1" name="num3" id=""></p>
+        <p>Digite seu primeiro número: <input type="number" min="1" name="num1" id="" required></p>
+        <p>Digite sua segundo número: <input type="number" min="1" name="num2" id="" required></p>
+        <p>Digite sua terceiro número: <input type="number" min="1" name="num3" id="" required></p>
         <input type="submit" value="ENVIAR">
     </form>
 </body>
