@@ -28,7 +28,7 @@
                 "categoria"=>"móvel"
             ],
             [
-                "nome"=>"Pelúcio",
+                "nome"=>"Pelúcia",
                 "preco"=>"20.5",
                 "categoria"=>"brinquedo"
             ],
