@@ -7,6 +7,18 @@
 </head>
 <body>
 
+    <style>
+        h1,h2 {
+            text-align: center;
+        }
+        
+        table, tr, td, th {
+            margin: auto;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+
     <?php
 
         $produtos = [
