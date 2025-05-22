@@ -24,7 +24,7 @@
             $this->Preco;
         }
 
-        public function adiconarEstoque($Quantidade){
+        public function adicionarEstoque($Quantidade){
             $this->Quantidade += $Quantidade;
         }
         public function RemoverEstoque($Quantidade){
@@ -40,4 +40,3 @@
     }
 
 ?>
-
