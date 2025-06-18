@@ -4,7 +4,7 @@
         private $Autor;
         private $Disponivel;
 
-        public function __construct($titulo,$autor,$disponivel){
+        public function __construct($titulo, $autor, $disponivel = true){
             $this->Titulo = $titulo;
             $this->Autor = $autor;
             $this->Disponivel = $disponivel;
